@@ -15,7 +15,7 @@
             isPc = !isPhone && !isAndroid && !isSymbian;
 console.log(isPc)
 if (!isPc) {
-    document.body.innerHTML = '<h1>请使用浏览器查看哦</h1>';
+    document.body.innerHTML = '<h1>请使用电脑查看哦</h1>';
 }
 else {
 let chair = document.querySelectorAll('.chair')[0]
