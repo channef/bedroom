@@ -29,4 +29,3 @@ chair.addEventListener('mousemove',function (e) {
         }, 2000);
     }
 })
-}
