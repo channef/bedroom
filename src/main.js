@@ -14,10 +14,10 @@
             isUC = /(?:UCWEB|UCBrowser)/.test(ua),
             isPc = !isPhone && !isAndroid && !isSymbian;
 console.log(isPc)
-if (!isPc) {
-    document.body.innerHTML = '<h1>请使用电脑查看哦</h1>';
-}
-else {
+// if (!isPc) {
+//     document.body.innerHTML = '<h1>请使用电脑查看哦</h1>';
+// }
+// else {
 let chair = document.querySelectorAll('.chair')[0]
 chair.addEventListener('mousemove',function (e) {
     // console.log(chair.className)
