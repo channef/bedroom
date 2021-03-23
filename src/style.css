@@ -7,7 +7,7 @@ body{
     min-width: 1024px;
     min-height: 800px;
     height: 100vh;
-    overflow: auto;
+    overflow-y: hidden;
 }
 .wall{
     background: linear-gradient(to right,rgb(119, 171, 238) 70%,rgb(159, 199, 252)30%);
